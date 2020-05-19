@@ -11,6 +11,13 @@
     "node",
     "javascript"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kenblair1226/apple-pay-signature-and-decrypt"
+  },
+  "bugs": {
+    "url": "https://github.com/Kenblair1226/apple-pay-signature-and-decrypt/issues"
+  },
   "author": "Ken Chen <blair1226@msn.com>",
   "license": "MIT",
   "type": "module",
