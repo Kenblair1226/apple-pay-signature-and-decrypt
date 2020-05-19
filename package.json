@@ -1,6 +1,6 @@
 {
   "name": "apple-pay-signature-and-decrypt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "applePayDecrypt.js",
   "scripts": {
