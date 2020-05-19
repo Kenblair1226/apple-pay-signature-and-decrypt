@@ -1,0 +1,24 @@
+{
+  "name": "apple-pay-signature-and-decrypt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "applePayDecrypt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "apple-pay",
+    "node",
+    "javascript"
+  ],
+  "author": "Ken Chen <blair1226@msn.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@fidm/x509": "^1.2.1",
+    "asn1js": "^2.0.26",
+    "ec-key": "0.0.4",
+    "node-webcrypto-ossl": "^2.1.0",
+    "pkijs": "^2.1.88"
+  }
+}

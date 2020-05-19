@@ -1,0 +1,53 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Dependency directory
+node_modules
+
+# Coverage reports
+coverage
+
+# Distribution
+dist
+
+# Environment
+.env
+.env_dev
+.env_pa
+
+# Configuration override
+config/local*
+
+# Confidential files
+.credential/
+*.pem
+
+# DLL manifests
+dll/*.dll.json
+
+# Reports
+reports/
+
+convenient_store/
+
+.DS_Store
+ACH*
+
+dump.rdb
+
+# PlantUML Output
+/out/
+
+launch.json
