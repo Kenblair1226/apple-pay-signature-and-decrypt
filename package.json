@@ -23,9 +23,9 @@
   "type": "module",
   "dependencies": {
     "@fidm/x509": "^1.2.1",
+    "@peculiar/webcrypto": "^1.4.1",
     "asn1js": "^2.0.26",
     "ec-key": "0.0.4",
-    "node-webcrypto-ossl": "^2.1.0",
     "pkijs": "^2.1.88"
   }
 }
