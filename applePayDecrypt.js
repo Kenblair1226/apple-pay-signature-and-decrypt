@@ -5,10 +5,10 @@ import ECKey from 'ec-key';
 import x509 from '@fidm/x509';
 import asn1js from 'asn1js';
 import pkijs from 'pkijs'
-import Crypto from 'node-webcrypto-ossl';
+import { Crypto } from '@peculiar/webcrypto'
 
 const __dirname = path.resolve();
-const crypto = new Crypto.Crypto()
+const crypto = new Crypto()
 const TOKEN_EXPIRE_WINDOW = Infinity; // should be set to serveral minute per apple
 pkijs.setEngine(
   'newEngine',
